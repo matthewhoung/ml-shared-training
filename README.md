@@ -1,6 +1,6 @@
 # ML Shared Training Pipeline
 
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.11.14](https://img.shields.io/badge/python-3.11.14-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 shared training pipeline for image and text models, separated from serving architecture.
@@ -221,5 +221,34 @@ MIT License - see [LICENSE](LICENSE) file
 ---
 
 **Status**: 🚧 Initial Setup  
-**Last Updated**: 2024-10-20  
+**Last Updated**: 2025-10-20  
 **Maintained by**: Matthew Hong
+
+### Prerequisites
+
+- **Python 3.11.14** (exact version for consistency)
+- [uv](https://github.com/astral-sh/uv) package manager
+
+**Install Python 3.11.14:**
+
+Using [pyenv](https://github.com/pyenv/pyenv) (recommended):
+```bash
+# Install pyenv if not already installed
+curl https://pyenv.run | bash
+
+# Install Python 3.11.14
+pyenv install 3.11.14
+pyenv local 3.11.14
+
+# Verify
+python --version  # Should show: Python 3.11.14
+```
+
+**Install uv:**
+```bash
+# macOS/Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Windows
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+```

@@ -246,3 +246,12 @@ htmlcov/
 # Logs
 *.log
 logs/
+
+# ========================
+# uv Package Manager
+# ========================
+.venv/
+
+# Python cache
+*.pyc
+__pycache__/
