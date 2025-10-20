@@ -205,3 +205,44 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ========================
+# ML Shared Training
+# ========================
+
+# Data (downloaded locally, not committed)
+data/raw/
+data/processed/
+
+# Models (stored in GCS, not in git)
+models/experiments/
+models/production/
+
+# Credentials (NEVER commit these!)
+credentials/*.json
+credentials/*.key
+.env
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
