@@ -1,0 +1,35 @@
+# ========================
+# Core ML Libraries
+# ========================
+torch==2.1.0
+torchvision==0.16.0
+transformers==4.35.0
+
+# ========================
+# Data Processing
+# ========================
+datasets==2.14.0
+pandas==2.1.0
+numpy==1.24.0
+Pillow==10.0.0
+
+# ========================
+# Google Cloud
+# ========================
+google-cloud-storage==2.10.0
+
+# ========================
+# Configuration & Utilities
+# ========================
+pyyaml==6.0.1
+python-dotenv==1.0.0
+tqdm==4.66.0
+
+# ========================
+# Development & Testing
+# ========================
+pytest==7.4.0
+black==23.9.0
+flake8==6.1.0
+jupyter==1.0.0
+ipykernel==6.25.0
